@@ -20,7 +20,7 @@ export default function Hero() {
       </p>
       <a
         href="#menu"
-        className="mt-12 inline-block font-mono text-xs uppercase tracking-[0.25em] text-accent hover:underline underline-offset-8 decoration-1"
+        className="mt-12 inline-block font-mono text-xs uppercase tracking-[0.25em] text-accent hover:underline underline-offset-8 decoration-1 transition-colors"
       >
         See the menu →
       </a>

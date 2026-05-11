@@ -22,3 +22,12 @@ html, body {
 body {
   font-feature-settings: "ss01", "cv11";
 }
+
+*:focus-visible {
+  outline: 2px solid #C2410C;
+  outline-offset: 4px;
+}
+
+a, button {
+  transition: color 150ms ease-out;
+}
