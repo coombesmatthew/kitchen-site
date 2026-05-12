@@ -41,6 +41,7 @@ export type Item = {
   kcal: number;
   tag: Tag;
   price: string;
+  image?: string;
 };
 
 export const menu: { category: string; items: Item[] }[] = [
@@ -56,6 +57,7 @@ export const menu: { category: string; items: Item[] }[] = [
         kcal: 410,
         tag: "recovery",
         price: "£7.50",
+        image: "/menu/cacao-recovery.jpg",
       },
       {
         no: "02",
@@ -66,6 +68,7 @@ export const menu: { category: string; items: Item[] }[] = [
         kcal: 320,
         tag: "gut",
         price: "£7.50",
+        image: "/menu/berry-kefir.jpg",
       },
     ],
   },
@@ -81,6 +84,7 @@ export const menu: { category: string; items: Item[] }[] = [
         kcal: 280,
         tag: "focus",
         price: "£7.00",
+        image: "/menu/cold-brew-protein.jpg",
       },
       {
         no: "04",
@@ -91,6 +95,7 @@ export const menu: { category: string; items: Item[] }[] = [
         kcal: 380,
         tag: "fuel",
         price: "£7.00",
+        image: "/menu/vanilla-casein.jpg",
       },
     ],
   },
@@ -106,6 +111,7 @@ export const menu: { category: string; items: Item[] }[] = [
         kcal: 460,
         tag: "fuel",
         price: "£8.50",
+        image: "/menu/hummus-avocado.jpg",
       },
       {
         no: "06",
@@ -116,6 +122,7 @@ export const menu: { category: string; items: Item[] }[] = [
         kcal: 520,
         tag: "fuel",
         price: "£9.50",
+        image: "/menu/smoked-turkey.jpg",
       },
     ],
   },
@@ -131,6 +138,7 @@ export const menu: { category: string; items: Item[] }[] = [
         kcal: 480,
         tag: "gut",
         price: "£11.00",
+        image: "/menu/grains-greens.jpg",
       },
       {
         no: "08",
@@ -141,6 +149,7 @@ export const menu: { category: string; items: Item[] }[] = [
         kcal: 560,
         tag: "recovery",
         price: "£12.50",
+        image: "/menu/chicken-egg.jpg",
       },
     ],
   },
